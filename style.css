@@ -1,0 +1,128 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+.scroll-top .navbar {
+  background-color: transparent !important;
+}
+
+.navbar-custom {
+  background-color: #212121;
+}
+
+.navbar-custom .navbar-brand {
+  color: #d6e6f5;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  margin-left: auto;
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  color: #d6e6f5;
+}
+
+body {
+  position: relative;
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+  color: #d6e6f5;
+}
+
+#home {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("img/hero.jpg");
+  background-size: cover;
+  background-position: center 25%;
+  padding: 10%;
+}
+
+#headshot {
+  width: 15vh;
+  height: 15vh;
+}
+
+#headshot.img-thumbnail {
+  background-color: transparent;
+  border: 2px solid transparent;
+  box-shadow: 0 0 4px 0;
+  background: inherit;
+  backdrop-filter: blur(10px); 
+}
+
+#mission {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #616161;
+}
+
+#skills {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #424242;
+}
+
+#skills img {
+  scale: 50%
+}
+
+#like {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #616161;
+}
+
+.carousel-control-prev {
+  margin-left: auto;
+}
+
+.carousel-control-next {
+  margin-right: auto;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  color: #d6e6f5;
+}
+
+#contact {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #424242;
+}
+
+#contact a {
+  color: inherit;
+}
+
+#email-icon:hover {
+  color: steelblue;
+}
+
+#github-icon:hover {
+  color: steelblue;
+}
+
+#linkedin-icon:hover {
+  color: steelblue;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: #616161;
+}
+
+#mission-target,
+#skills-target,
+#likeCarousel-target,
+#contact-target {
+  position: relative;
+  top: -65px;
+}

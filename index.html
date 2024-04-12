@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>Felix Lopez's Website</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-sm fixed-top navbar-custom">
+      <div class="container-fluid">
+        <a href="#home" class="navbar-brand">
+          <i class="bi bi-house"></i>
+        </a>
+
+        <button class="navbar-toggler" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbar"
+          aria-controls="navbar" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          
+          <svg viewBox="0 0 100 80" width="40" height="40" style="fill: #d6e6f5;">
+            <rect y="5" width="100" height="10" rx="5" ry="5"></rect>
+            <rect y="35" width="100" height="10" rx="5" ry="5"></rect>
+            <rect y="65" width="100" height="10" rx="5" ry="5"></rect>
+          </svg>
+        </button>
+        
+        <div id="navbar"  class="collapse navbar-collapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#mission-target" class="nav-link">Mission</a>
+            <a href="#skills-target" class="nav-link">Skills</a>
+            <a href="#like-target" class="nav-link">Things I Like</a>
+            <a href="#contact-target" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <header id="home">
+      <!-- Hero section -->
+      <section id="hero" class="text-center">
+        <img src="img/headshot.jpg" alt="Headshot of Felix Lopez" id="headshot" class="rounded-circle img-fluid img-thumbnail">
+        <h1>Felix Lopez</h1>
+        <p>Web and Game Dev</p>
+      </section>
+    </header>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission">
+      <div id="mission-target"></div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2>My Mission</h2>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="img/mission.jpg" alt="Image of HTML and CSS" id="mission-image" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum accusamus voluptas id maxime eos aliquid deserunt exercitationem nisi fugiat sapiente quas dolores ratione deleniti repudiandae, optio eius sunt illum velit?
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills">
+      <div id="skills-target"></div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2>Skills</h2>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" class="img-fluid" />
+            <p>HTML</p>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+            <p>CSS</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
+            <p>Bootstrap</p>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <p>Javascript</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+            <p>C++</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg" />
+            <p>Unreal Engine</p>
+          </div>
+          
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+            <p>Java</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+
+  	</section>
+
+    <!-- Carousel section -->
+    <section id="like" class="text-center">
+      <div id="like-target"></div>
+      <div id="likeCarousel" class="carousel slide">
+        <h2>Top 3 Songs I Like</h2>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#likeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#likeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#likeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6Ejga4kJUts?si=riMLaAtKLlxyQQIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Zombie by The Cranberries</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/49tpIMDy9BE?si=ZxoW3pRQGsoo7xZi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Shatter Me by Lindsey Stirling</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5anLPw0Efmo?si=XD_pVJznSkuSS4ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Immortal by Evanescence</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#likeCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#likeCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact"  class="text-center">
+      <div id="contact-target"></div>
+      <h2>Contact</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <a id="email-icon" class="icon-link" href="mailto:FelixRLopez@Proton.me">
+            <i class="bi bi-envelope-fill h1"></i>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a  id="github-icon" class="icon-link" href="https://github.com/FelixRLopez/">
+            <i class="bi bi-github h1"></i>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a  id="linkedin-icon" class="icon-link" href="https://www.linkedin.com/in/felix-lopez-7365a22b0/">
+              <i class="bi bi-linkedin h1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <footer>
+      <!-- Footer section -->
+      <section id="footer" class="text-center">
+        <p>&#169; Felix Lopez 2024</p>
+      </section>
+    </footer>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
